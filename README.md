@@ -52,4 +52,5 @@ python LSTM/inference.py
 ```plaintext
 python SNN/train.py
 python SNN/test.py
+python SNN/evaluate.py
 ```
