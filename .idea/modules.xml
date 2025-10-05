@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/neuro-gaze.iml" filepath="$PROJECT_DIR$/.idea/neuro-gaze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KIST_EOG.iml" filepath="$PROJECT_DIR$/.idea/KIST_EOG.iml" />
     </modules>
   </component>
 </project>
