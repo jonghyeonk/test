@@ -22,8 +22,8 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── model.py           # LSTM model architecture
 │
 ├── data_jeonju_0904 /
-│   ├── task1_v2_x4        # Original dataset for training
-│   └── task2_v2_x8        # Original dataset for training
+│   ├── task1_v2_x4        # Original dataset for training a four-section classification problem
+│   └── task2_v2_x8        # Original dataset for training an eight-section classification problem
 │
 ├── figures_rawdata /
 │   ├── figure3            # raw dataset for figure 3
@@ -34,6 +34,18 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── train.py           # Train the SNN model with spike-based representation
 │   ├── test.py            # Evaluate SNN decoding performance
 │   └── checkpoints/       # Trained SNN weights
+```
+0. Requirements.txt (python version == 3.11)
+```plaintext
+numpy==1.23.5
+pandas==2.1.4
+scipy==1.9.3
+matplotlib==3.7.5
+seaborn==0.13.2
+torch==2.3.0+cu121
+snntorch==0.9.1
+scikit-learn==1.4.2
+torchvision==0.18.0+cu121
 ```
 
 1. LSTM Training & Inference
@@ -52,4 +64,5 @@ python LSTM/inference.py
 ```plaintext
 python SNN/train.py
 python SNN/test.py
+python SNN/evaluate.py
 ```
