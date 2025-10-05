@@ -33,6 +33,7 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── preprocess.py      # Convert raw EOG → spiking data using LSTM attention
 │   ├── train.py           # Train the SNN model with spike-based representation
 │   ├── test.py            # Evaluate SNN decoding performance
+│   ├── evaluate.ipynb     # Visualize SNN performance
 │   └── checkpoints/       # Trained SNN weights
 ```
 0. Requirements.txt (python version == 3.11)
@@ -64,5 +65,5 @@ python LSTM/inference.py
 ```plaintext
 python SNN/train.py
 python SNN/test.py
-python SNN/evaluate.py
+python SNN/evaluate.ipynb
 ```
