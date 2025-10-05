@@ -25,6 +25,10 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── task1_v2_x4        # Original dataset for training
 │   └── task2_v2_x8        # Original dataset for training
 │
+├── figures_rawdata /
+│   ├── figure3            # raw dataset for figure 3
+│   └── figure4            # raw dataset for figure 4
+│
 ├── SNN/
 │   ├── preprocess.py      # Convert raw EOG → spiking data using LSTM attention
 │   ├── train.py           # Train the SNN model with spike-based representation
