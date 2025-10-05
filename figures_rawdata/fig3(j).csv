@@ -1,0 +1,7 @@
+"Problem","Method","Encoding","test"
+"x4","SNN","Raw",0.9137
+"x4","SNN","AllSpike",0.9336
+"x4","SNN","KeySpike",0.9823
+"x8","SNN","Raw",0.7536
+"x8","SNN","AllSpike",0.8754
+"x8","SNN","KeySpike",0.9507
