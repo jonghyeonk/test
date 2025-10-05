@@ -35,6 +35,18 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── test.py            # Evaluate SNN decoding performance
 │   └── checkpoints/       # Trained SNN weights
 ```
+0. Requirements.txt (python version == 3.11)
+```plaintext
+numpy==1.23.5
+pandas==2.1.4
+scipy==1.9.3
+matplotlib==3.7.5
+seaborn==0.13.2
+torch==2.3.0+cu121
+snntorch==0.9.1
+scikit-learn==1.4.2
+torchvision==0.18.0+cu121
+```
 
 1. LSTM Training & Inference
 ```plaintext
