@@ -22,8 +22,8 @@ This repository provides the code for a **two-stage neuromorphic gaze decoding p
 │   ├── model.py           # LSTM model architecture
 │
 ├── data_jeonju_0904 /
-│   ├── task1_v2_x4        # Original dataset for training
-│   └── task2_v2_x8        # Original dataset for training
+│   ├── task1_v2_x4        # Original dataset for training a four-section classification problem
+│   └── task2_v2_x8        # Original dataset for training an eight-section classification problem
 │
 ├── figures_rawdata /
 │   ├── figure3            # raw dataset for figure 3
